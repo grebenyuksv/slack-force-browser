@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Sergii",
+    "version": "1.0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.slack.com/archives/*"
+            ],
+            "js": [
+                "src/index.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}

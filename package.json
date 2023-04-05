@@ -1,0 +1,10 @@
+{
+  "name": "sergii-chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergii Grebeniuk <32548875+grebenyuksv-preply@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.7"
+  }
+}
